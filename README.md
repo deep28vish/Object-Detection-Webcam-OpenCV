@@ -1,8 +1,21 @@
-Obejct detection via webcam - (OpenCV)
-This notebook is 3rd of 3 notebooks. Here we will see how to use webcam of a system or any camera attached to a system for object detection the code is 99% same as we have seen in 2nd notebook - https://github.com/deep28vish/Object-detection-Videos-OpenCV
+# Object Detection in Videos using OpenCV
 
-This small program gives you the ability to deploy the power of machine learning and Deep neural network to monitor a video stream. And because of the scalability there the only limit is your imagination. The code in this notebook is just a way to get started.
+## About
+This is 3 of 3 notebook that shows the use of OpenCV to detect objects in video from webcams. 
+Fist notebook 1/3 shows the implementation of OpenCV to detect Object in images which can be found [here](https://github.com/deep28vish/Object-Detection-Images-OpenCV). [Second Notebook](https://github.com/deep28vish/Object-detection-Videos-OpenCV) is Object detectio on Videos.
 
-We will demonstrate Object detection Using OpenCV classifiers and this a method of detecting is relied upon CPU and covers the whole concept in just 40 lines of code.
+These are sample codes ready to run without any prior knowledge of AI, ML DNN, CNN these 50 lines are just plain simple ready to run.
 
-address to download classifiers - https://github.com/opencv/opencv/tree/master/data/haarcascades
+## Requirements
+* [Opencv(cv2)](https://pypi.org/project/opencv-python/)
+* [Cascade classifiers](https://github.com/deep28vish/Object-Detection-Images-OpenCV/tree/master/haar_cascades)
+## Contents
+* haar_cascades[Folder with all the required classifiers]
+* OBJECT_DETECTION_WEBCAM_COLORISED.py
+* OBJECT_DETECTION_WEBCAM_GRAY.py
+    
+## Inspiration
+* [SENTDEX](https://pythonprogramming.net/)
+
+## Takeaway
+This is just to see how to load classifiers and execute it using OPENCV in python for webcam Videos.
